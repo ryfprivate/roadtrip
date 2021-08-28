@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: EventChannels
+  m_EditorClassIdentifier: 
+  m_GroupName: EventChannels
+  m_Data:
+    m_SerializedData: []
+  m_GUID: af4ca32cf4b4336469a937b783ae78ae
+  m_SerializeEntries:
+  - m_GUID: 83827ec3e689e0744b37612096277a05
+    m_Address: Assets/EventChannels/LoadMenu_Channel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f052ee2e65625ed4aa9a957ee7347b96
+    m_Address: Assets/EventChannels/LoadGameplay_Channel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2cd6e8fc2c78ecf429355fe60449d734
+    m_Address: Assets/EventChannels/LoadLocation_Channel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 66ee2d70da4cf24449a6a83ee07536e3
+    m_Address: Assets/EventChannels/Gameplay/Gameplay_Channel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: aafd95a535038564280a4f28921ca2be
+    m_Address: Assets/EventChannels/UI/Fade_Channel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cc2f96bf4f9bffc4595563789080564f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7aa14d6fc4052c141a3f18d09d65572a, type: 2}
+    - {fileID: 11400000, guid: 98d877084854a4549828620b68732e20, type: 2}

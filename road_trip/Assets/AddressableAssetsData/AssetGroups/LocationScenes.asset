@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: LocationScenes
+  m_EditorClassIdentifier: 
+  m_GroupName: LocationScenes
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 74165e827e7542f4a8371b1ef9268524
+  m_SerializeEntries:
+  - m_GUID: 916483b8259d59a4b8ddb10c632a2c3c
+    m_Address: Assets/Scenes/Locations/PeacePlains.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ce18f67eb14890442a9f457a04fc9301
+    m_Address: Assets/Scenes/Locations/FurtiveForest.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cc2f96bf4f9bffc4595563789080564f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7e5396cbb07c37f4a8d9ccb6f27d6077, type: 2}
+    - {fileID: 11400000, guid: 29085d0360501394d8a2f7ad33a0bf37, type: 2}
