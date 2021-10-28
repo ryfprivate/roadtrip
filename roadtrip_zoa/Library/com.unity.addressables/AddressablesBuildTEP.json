@@ -1,9 +1,3 @@
-{
-"Date": "28/10/2021 11:38:44 PM",
-"UnityVersion": "2021.1.7f1",
-"com.unity.scriptablebuildpipeline": "1.15.2",
-"com.unity.addressables": "1.16.19",
-"traceEvents": [
-{"name": "Building Use Asset Database (fastest)", "ph": "X", "dur": 1239.7, "tid": 1, "ts": 7542, "pid": 1}
-]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:55a4aff2575a813ccdbdd3e7968ad73bd38b17e1691da3b332c7f12d6becf2a6
+size 287

@@ -1,5 +1,3 @@
-sceneSetups:
-- path: Assets/com.dotdothorse.roadtrip/Scenes/Menus/StartMenu.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a708665a13aac687c2298de5876b5032ab95b28a24ed7a300b0b8a5fcb16789
+size 128

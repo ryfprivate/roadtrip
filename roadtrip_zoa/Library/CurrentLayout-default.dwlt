@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: -3755
-    y: 132
+    x: -3709
+    y: 481
     width: 943
     height: 418
   m_ShowMode: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Hierarchy
   m_RootView: {fileID: 5}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &3
@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 0
     width: 943
     height: 418
-  m_MinSize: {x: 100, y: 121}
-  m_MaxSize: {x: 4000, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 121}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 4691
+  controlID: 203
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,7 +120,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -190,10 +190,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 881, y: 492}
-  m_MaxSize: {x: 16006, y: 14042}
+  m_MinSize: {x: 877, y: 471}
+  m_MaxSize: {x: 16002, y: 14042}
   vertical: 0
-  controlID: 15
+  controlID: 79
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -215,10 +215,10 @@ MonoBehaviour:
     y: 0
     width: 1385
     height: 947
-  m_MinSize: {x: 680, y: 492}
-  m_MaxSize: {x: 12005, y: 14042}
+  m_MinSize: {x: 677, y: 471}
+  m_MaxSize: {x: 12002, y: 14042}
   vertical: 1
-  controlID: 70
+  controlID: 161
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,10 +241,10 @@ MonoBehaviour:
     y: 0
     width: 1385
     height: 670
-  m_MinSize: {x: 680, y: 221}
-  m_MaxSize: {x: 12005, y: 4021}
+  m_MinSize: {x: 677, y: 200}
+  m_MaxSize: {x: 12002, y: 4021}
   vertical: 0
-  controlID: 71
+  controlID: 162
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,8 +264,8 @@ MonoBehaviour:
     y: 0
     width: 271
     height: 670
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -290,8 +290,8 @@ MonoBehaviour:
     y: 0
     width: 681
     height: 670
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -370,8 +370,8 @@ MonoBehaviour:
     y: 0
     width: 535
     height: 947
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -397,16 +397,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -3755
-    y: 132
+    x: -3709
+    y: 481
     width: 943
     height: 397
   m_ViewDataDictionary: {fileID: 0}
   m_GroupEditor:
     m_TreeState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 36d69f2d
-      m_LastClickedID: 765449782
+      m_SelectedIDs: fbb1f726cd5647879d4a7c2f3b02540c
+      m_LastClickedID: 206832187
       m_ExpandedIDs: 451f9462
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -427,18 +427,18 @@ MonoBehaviour:
       m_SearchString: 
     m_Mchs:
       m_Columns:
-      - width: 310.95947
+      - width: 260
         sortedAscending: 0
       - width: 20
         sortedAscending: 0
-      - width: 512.1681
+      - width: 150
         sortedAscending: 0
-      - width: 759.87006
+      - width: 160
         sortedAscending: 0
       m_VisibleColumns: 00000000010000000200000003000000
       m_SortedColumns: 
     window: {fileID: 16}
-    m_VerticalSplitterPercent: 0.8
+    m_VerticalSplitterPercent: 0.80100757
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -494,7 +494,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f85dfeffe897feffdca3feff64cefeff2ed0feff30d0feff26dcfeffa6e0feff88fffeff9819ffff2c21ffff2223fffffa3bffff5c3effff2642ffff0e4effff1472ffffba7afffff081ffffb483ffff9089ffffe08affff8a96ffff589bffff389cffff02abffffb0adffff16afffffc4b0ffffd6b1ffff36b6ffff4ac0ffffd0cdffff5ed3ffff68d5ffff74dbffff50fbffffcaaa0000c6c4000076c8000094c80000
+      m_ExpandedIDs: b4eafeffecedfeff56f1feff4af9feff2e14ffff081bfffff422ffffbe24ffffc624ffff442dffff7e32ffff6634ffff7835ffff3837ffff1239ffffb239ffff643bffff7e3cffff886cffffbc6dffff5686ffff6286ffffca93ffff4ea6ffff10a7ffff66afffffc0b2ffffe4b3ffffd6b4ffff00b6ffff14bcffffeebdffffacbeffff44bfffffdebfffff16c1ffff68c6ffffcecbffff50fbffff1480000014820000469a0000e89d00009c9e00008aa10000caa10000f8a100007ea2000040a4000096a40000b0be000066bf0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -510,7 +510,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 11}
+        m_ClientGUIView: {fileID: 15}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -603,13 +603,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.051256068, y: 0.04821024, z: -0.0020092034, w: -0.99761915}
+    m_Target: {x: -0.11406481, y: -0.008621431, z: 0.0015153184, w: -0.9935385}
     speed: 2
-    m_Value: {x: -0.05125096, y: 0.048205435, z: -0.0020090032, w: -0.99751973}
+    m_Value: {x: -0.11256277, y: -0.008622806, z: 0.0015022242, w: -0.99360603}
   m_Size:
-    m_Target: 1013.7189
+    m_Target: 1313.504
     speed: 2
-    m_Value: 1101.4536
+    m_Value: 1256.9417
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -735,22 +735,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/com.dotdothorse.roadtrip/Prefabs/UI/Menu
+    - Assets/com.dotdothorse.roadtrip/Scenes/Managers
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/com.dotdothorse.roadtrip/Prefabs/UI/Menu
+  - Assets/com.dotdothorse.roadtrip/Scenes/Managers
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Ray Feng\OneDrive\Documents\_game_dev\_projects\roadtrip_zoa\code\roadtrip_zoa
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 291}
-    m_SelectedIDs: 0ae30000
-    m_LastClickedID: 58122
-    m_ExpandedIDs: 00000000e0690000e2690000e6690000e8690000ea690000ec690000006a0000026a00000c6a00000e6a0000106a0000166a00001e6a00002a6a0000366b00008a6b0000de6c0000f66c0000f86c0000046d000000de000000ca9a3b
+    scrollPos: {x: 0, y: 388}
+    m_SelectedIDs: 446d0000
+    m_LastClickedID: 27972
+    m_ExpandedIDs: 00000000206a0000226a0000246a0000266a0000286a00002a6a00002c6a00002e6a0000306a0000346a0000406a0000426a0000466a0000486a00004a6a00004e6a00005e6a00000c6c0000746d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -778,7 +778,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e0690000e2690000e4690000e6690000e8690000ea690000ec690000
+    m_ExpandedIDs: 00000000206a0000226a0000246a0000266a0000286a00002a6a00002c6a00002e6a0000306a0000326a0000346a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -418,6 +418,7 @@
 "Assets/com.dotdothorse.roadtrip/Scripts/Monos/Scene/Menu/MenuPlay.cs"
 "Assets/com.dotdothorse.roadtrip/Scripts/Monos/Scene/Menu/MenuStart.cs"
 "Assets/com.dotdothorse.roadtrip/Scripts/Monos/Scene/Menu/UI/Screens/UIStarterScreen.cs"
+"Assets/com.dotdothorse.roadtrip/Scripts/Monos/Scene/Menu/UI/UISelectableCar.cs"
 "Assets/com.dotdothorse.roadtrip/Scripts/Monos/Scene/PersistentManagers/CarCollection.cs"
 "Assets/com.dotdothorse.roadtrip/Scripts/Monos/Scene/PersistentManagers/SaveManager.cs"
 "Assets/com.dotdothorse.roadtrip/Scripts/Monos/Scene/PersistentManagers/SceneLoader.cs"
