@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1191661408973197495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7721545103293970050}
+  - component: {fileID: 4262586270422890075}
+  - component: {fileID: 5873067435658995043}
+  m_Layer: 0
+  m_Name: RushPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7721545103293970050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191661408973197495}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4262586270422890075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191661408973197495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806ed741e0e7d06458534522923fb31b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerCar: {fileID: 0}
+  _playerEffects: {fileID: 0}
+  _carAnimation: {fileID: 0}
+  _mod: {fileID: 0}
+  _inputReader: {fileID: 0}
+  _playerChannel: {fileID: 0}
+  currentChargeState: 0
+--- !u!114 &5873067435658995043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191661408973197495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cbd002f7001eeb4e8501408f22cf728, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentStats:
+    TopSpeed: 50
+    BoostSpeedMultiplier: 1.5
+    Acceleration: 5
+    BoostAccelerationMultiplier: 1.5
+    AccelerationCurve: 1
+    CoastingDrag: 4
+    Grip: 0
+    Steer: 5
+    AddedGravity: 1
+  CenterOfMass: {fileID: 0}
+  AirborneReorientationCoefficient: 3
+  SuspensionHeight: 0.2
+  SuspensionSpring: 20000
+  SuspensionDamp: 500
+  WheelsPositionVerticalOffset: 0
+  FrontLeftWheel: {fileID: 0}
+  FrontRightWheel: {fileID: 0}
+  RearLeftWheel: {fileID: 0}
+  RearRightWheel: {fileID: 0}
+  GroundLayers:
+    serializedVersion: 2
+    m_Bits: 1011

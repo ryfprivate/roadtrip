@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc74c52adf2208b4fa7286b3e634bb85, type: 3}
+  m_Name: Rush
+  m_EditorClassIdentifier: 
+  _modPlayer:
+    m_AssetGUID: b8fde463b617c514a8ac3ef749e6e5c0
+    m_SubObjectName: 
+    m_SubObjectType: 
+  _modIcon:
+    m_AssetGUID: 7265cca880c03fd469140781e9735a09
+    m_SubObjectName: bullrun
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  _modName: Rush
+  _modDescription: Charge head on and destroy things in your path.
+  _upgradeData: {fileID: 0}

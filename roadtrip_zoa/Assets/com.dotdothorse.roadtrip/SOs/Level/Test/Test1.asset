@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84320d1b91c54424ba104eb055b40b24, type: 3}
+  m_Name: Test1
+  m_EditorClassIdentifier: 
+  levelName: 1
+  musicName: 
+  numSegmentsInLevel: 50
+  randomize: 0
+  segments:
+  - segment:
+      m_AssetGUID: 06480a719cc4e2b4bbed9adb81fa27de
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    numInstances: 5
