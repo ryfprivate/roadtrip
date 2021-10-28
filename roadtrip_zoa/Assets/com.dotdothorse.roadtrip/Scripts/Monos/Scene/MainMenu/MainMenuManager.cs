@@ -35,11 +35,14 @@ namespace com.dotdothorse.roadtrip
         //[SerializeField] private SaveEventChannelSO _saveChannel = default;
 
         [Header("[Read-only]")]
-        [ShowInInspector] private GameSceneSO currentMenu;
+        private GameSceneSO currentMenu;
+        private Tab currentTab;
 
         private void OnEnable()
         {
             _loadMainMenuChannel.OnLoadingFinished += MainMenuLoaded;
+            _menuChannel.OnRequestMainMenuUI += OpenMainMenuUI;
+            _menuChannel.OnCloseMainMenuUI += CloseMainMenuUI;
 
 #if UNITY_EDITOR
             _coldStartupChannel.OnLoadingFinished += OnColdStartup;
@@ -49,6 +52,8 @@ namespace com.dotdothorse.roadtrip
         private void OnDisable()
         {
             _loadMainMenuChannel.OnLoadingFinished -= MainMenuLoaded;
+            _menuChannel.OnRequestMainMenuUI -= OpenMainMenuUI;
+            _menuChannel.OnCloseMainMenuUI -= CloseMainMenuUI;
 
 #if UNITY_EDITOR
             _coldStartupChannel.OnLoadingFinished -= OnColdStartup;
@@ -60,6 +65,7 @@ namespace com.dotdothorse.roadtrip
             if (scene.sceneType == SceneType.Menu)
             {
                 currentMenu = scene;
+                currentTab = Tab.Start;
             }
         }
 
@@ -69,15 +75,16 @@ namespace com.dotdothorse.roadtrip
                 () =>
                 {
                     currentMenu = _startScene;
+                    currentTab = Tab.Start;
                 });
-            //_loadMenuChannel.Request(_playScene,
-            //    () => {
-            //        //MasterAudio.ChangePlaylistByName("MainMenu");
-            //        currentMenu = _playScene;
-            //        //_loadingChannel.Close(
-            //        //    () => { });
-            //        //MasterAudio.TriggerPlaylistClip("MainTheme");
-            //    });
+        }
+        private void OpenMainMenuUI()
+        {
+            _uiMainMenu.Reveal(currentTab);
+        }
+        private void CloseMainMenuUI()
+        {
+            _uiMainMenu.Hide();
         }
 
         private void ChangeToMenu(Tab tab)

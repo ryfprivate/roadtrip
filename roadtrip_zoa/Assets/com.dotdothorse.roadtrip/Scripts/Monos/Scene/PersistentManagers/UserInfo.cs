@@ -5,15 +5,33 @@ using UnityEngine.Events;
  
 namespace com.dotdothorse.roadtrip
 {
+    public struct CarData
+    {
+        public string carName;
+        public string modName;
+        public float health;
+        public float speed;
+        public float fortune;
+        public float charge;
+        public CarData(string carKey, string modKey, float h, float s, float f, float c)
+        {
+            carName = carKey;
+            modName = modKey;
+            health = h;
+            speed = s;
+            fortune = f;
+            charge = c;
+        }
+    }
     public struct UserData
     {
         public int gemCount;
-        public List<CarStatsSO> ownedCars;
+        public List<CarData> ownedCars;
         public int selectedCarIdx;
         public UserData(int startingGems)
         {
             gemCount = startingGems;
-            ownedCars = new List<CarStatsSO>();
+            ownedCars = new List<CarData>();
             selectedCarIdx = -1;
         }
     }
@@ -57,6 +75,16 @@ namespace com.dotdothorse.roadtrip
             }
             return cars;
         }
+        public void PickStarter(CarDataSO selectedStarter)
+        {
+            CarStatsSO presetStats = selectedStarter._preset;
+            // Creates a car with base preset stats
+            CarData newCar = new CarData(selectedStarter.carName, selectedStarter._mod._modName,
+                presetStats.health, presetStats.speed, presetStats.fortune, presetStats.charge);
+
+            userData.ownedCars.Add(newCar);
+            userData.selectedCarIdx = 0;
+        }
         public CarDataSO GetSelectedCar()
         {
             if (userData.ownedCars.Count == 0)
@@ -64,8 +92,8 @@ namespace com.dotdothorse.roadtrip
                 // No cars
                 return null;
             }
-            CarStatsSO selectedStats = userData.ownedCars[userData.selectedCarIdx];
-            return _carCollection.GetCar(selectedStats.carKey);
+            CarData selectedCar = userData.ownedCars[userData.selectedCarIdx];
+            return _carCollection.GetCar(selectedCar.carName);
         }
         #endregion
     }

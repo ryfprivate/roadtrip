@@ -49,25 +49,24 @@ namespace com.dotdothorse.roadtrip
         }
         private IEnumerator COpenLoadingScreen(AssetReference requestedSprite)
         {
-            float fadeDuration = 0.5f;
-            _fadeImage.DOFade(1, fadeDuration);
-            yield return new WaitForSeconds(fadeDuration);
-
             if (requestedSprite == null)
             {
-                // Blank loading screen
                 _loadingImage.color = Color.clear;
             } else
             {
+                float fadeDuration = 0.5f;
+                _fadeImage.DOFade(1, fadeDuration);
+                yield return new WaitForSeconds(fadeDuration);
+
                 loadingScreenHandle = Addressables.LoadAssetAsync<Sprite>(requestedSprite);
                 yield return loadingScreenHandle;
 
                 _loadingImage.sprite = loadingScreenHandle.Result;
                 _loadingImage.color = Color.white;
+                _fadeImage.DOFade(0, fadeDuration);
             }
 
             _loadingIcon.SetActive(true);
-            _fadeImage.DOFade(0, fadeDuration);
         }
         private void CloseLoadingScreen(UnityAction callback)
         {

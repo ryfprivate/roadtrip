@@ -6,10 +6,19 @@ using UnityEngine.AddressableAssets;
 
 namespace com.dotdothorse.roadtrip
 {
+    public enum Rarity
+    {
+        Common,
+        Rare,
+        Epic,
+        Legendary,
+        Custom
+    }
     [CreateAssetMenu(menuName = "SOs/CarData")]
     public class CarDataSO : BaseDescriptionSO
     {
         public string carName;
+
         public ModDataSO _mod;
         public AssetReference _car;
 

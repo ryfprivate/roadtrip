@@ -70,6 +70,7 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Location\LocationStopWatch.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\UI\_Scripts\LoadingEventChannelSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\UpgradeInfo.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\Car\_Scripts\CarStatsSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Player\PlayerController.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\MainMenu\UI\UITabSelection.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Location\UI\UISplashScreen.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Assets\URP\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\VFX\VFXEventsChannelSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\PersistentManagers\UserInfo.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Car\CarDriver.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Level\LevelSegment.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Boundary\RepelZone.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\Load\_Scripts\ColdStartupEventChannelSO.cs" />
@@ -105,6 +107,7 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Objects\Physics\BaseTrigger.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\InitializationLoader.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Utils\FPSDisplay.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Menu\MenuStart.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Level\EndLocationBoundary.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Cards\UICarCard.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Location\PlayerSpawner.cs" />
@@ -120,11 +123,13 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\MainMenu\UI\UIMainMenuNav.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\PersistentManagers\CarCollection.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\Save\_Scripts\SaveEventChannelSO.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\User\_Scripts\UserEventChannelSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Cards\UIUpgradeCard.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Effect\EffectUIText.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\Gameplay\_Scripts\PlayerEventChannelSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\Load\_Scripts\LoadEventChannelSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Pool\PrefabPool.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Menu\UI\Screens\UIStarterScreen.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\PersistentManagers\SaveManager.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Boundary\OuterGate.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\UI\UIStateInfo.cs" />
@@ -139,11 +144,9 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\UI\Screens\UIProgressScreen.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\GameplayManager.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Location\LevelGenerator.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\Car\_Scripts\CarStatsSO.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\User\_Scripts\UserEventChannelSO.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Menu\MenuStart.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Car\CarDriver.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Menu\UI\Screens\UIStarterScreen.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\UI\MultiImageButton.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\UI\ButtonWrapper.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Visual\VisualRotateAround.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
