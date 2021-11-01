@@ -1,21 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da71bf016a9b9f44bb0c5b19f382e0d4, type: 3}
-  m_Name: BaseTaipan
-  m_EditorClassIdentifier: 
-  description: 
-  carKey: Taipan
-  modKey: 
-  health: 0.3
-  speed: 0.4
-  fortune: 0.3
-  charge: 0.2
+version https://git-lfs.github.com/spec/v1
+oid sha256:642a0339d651f62a236f0e226196082034ca8af22a19ce8838e256c80d8fc12f
+size 471

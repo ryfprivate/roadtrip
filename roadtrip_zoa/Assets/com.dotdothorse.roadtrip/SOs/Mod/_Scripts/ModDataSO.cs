@@ -1,18 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.AddressableAssets;
- 
-namespace com.dotdothorse.roadtrip
-{
-    [CreateAssetMenu(menuName = "SOs/ModData")]
-    public class ModDataSO : ScriptableObject
-    {
-        public AssetReference _modPlayer;
-        public AssetReferenceSprite _modIcon;
-        public string _modName;
-        [TextArea()]
-        public string _modDescription;
-        public BaseUpgradePathSO _upgradeData;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b721b4e27f112d9b354f6559764cc850e6620b4e025004bbe2f0b7b6c7fe95c5
+size 500

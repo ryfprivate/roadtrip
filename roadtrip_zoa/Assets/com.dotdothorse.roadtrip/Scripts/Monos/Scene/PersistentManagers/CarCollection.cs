@@ -1,28 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using Sirenix.OdinInspector;
- 
-namespace com.dotdothorse.roadtrip
-{
-    public class CarCollection : MonoBehaviour
-    {
-        [SerializeField] private List<CarDataSO> _cars;
-        [ShowInInspector]
-        private Dictionary<string, CarDataSO> nameCarMap;
-        private void Awake()
-        {
-            nameCarMap = new Dictionary<string, CarDataSO>();
-            foreach (CarDataSO car in _cars)
-            {
-                nameCarMap.Add(car.carName, car);
-            }
-        }
-        public CarDataSO GetCar(string key)
-        {
-            CarDataSO car = null;
-            nameCarMap.TryGetValue(key, out car);
-            return car;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:733b65044953b6d2867d45f0ed865863e9acc640918d1f41b22a6d209077fe44
+size 755
