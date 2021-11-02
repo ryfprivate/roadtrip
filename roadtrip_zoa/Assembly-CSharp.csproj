@@ -77,19 +77,19 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Player\PlayerEffects.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\PersistentManagers\SceneLoader.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Objects\Physics\ObstacleTrigger.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\UpgradePaths\Mod\BullrunUpgradePathSO.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\UpgradePaths\Mod\RushUpgradePathSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\C#\Wiggle.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\Input\InputReader.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\Menu\_Scripts\MenuEventChannelSO.cs" />
     <Compile Include="Assets\URP\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\VFX\VFXEventsChannelSO.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\VFX\_Scripts\VFXEventsChannelSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\PersistentManagers\UserInfo.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Car\CarDriver.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Level\LevelSegment.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Boundary\RepelZone.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\Load\_Scripts\ColdStartupEventChannelSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Player\CarAnimation.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Player\Mods\BullrunMod.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Player\Mods\RushMod.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\SceneData\_Scripts\LocationSceneSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Boundary\Boundary.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Player\ArcadeCar.cs" />
@@ -101,6 +101,7 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\EditorColdStartup.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\UI\Screens\UIGameplayScreen.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\Car\_Scripts\CarDataSO.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\Camera\_Scripts\CameraEventChannelSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\MainMenu\MainMenuManager.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\Gameplay\_Scripts\LevelEventChannelSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Menu\MenuCars.cs" />
@@ -124,7 +125,6 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\PersistentManagers\ScreenController.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\MainMenu\UI\UIMainMenuNav.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\PersistentManagers\CarCollection.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\Save\_Scripts\SaveEventChannelSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Menu\UI\Cars\UICarItem.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\User\_Scripts\UserEventChannelSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Cards\UIUpgradeCard.cs" />
@@ -134,7 +134,6 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Menu\UI\Cars\UICarDetails.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Pool\PrefabPool.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Menu\UI\_Screens\UIStarterScreen.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\PersistentManagers\SaveManager.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Boundary\OuterGate.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\UI\UIStateInfo.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\Level\_Scripts\LevelSO.cs" />
@@ -153,10 +152,13 @@
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\com.dotdothorse.roadtrip\Shaders\CFXR_URP.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\com.dotdothorse.roadtrip\Shaders\CFXR Particle Ubershader.shader" />
+     <None Include="Assets\com.dotdothorse.roadtrip\Shaders\Lighting.hlsl" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -166,8 +168,10 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\com.dotdothorse.roadtrip\Shaders\CFXR_SETTINGS.cginc" />
      <None Include="Assets\com.dotdothorse.roadtrip\Scripts\Templates\RoadtripTemplate.cs.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\com.dotdothorse.roadtrip\Shaders\CFXR.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />

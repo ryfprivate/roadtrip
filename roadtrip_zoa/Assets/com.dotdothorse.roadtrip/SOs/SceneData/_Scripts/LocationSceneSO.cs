@@ -1,22 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.AddressableAssets;
- 
-namespace com.dotdothorse.roadtrip
-{
-    [CreateAssetMenu(menuName = "SOs/Scene/LocationScene")]
-    public class LocationSceneSO : GameSceneSO
-    {
-        public string ambienceAudioName;
-        public float startSpeed;
-        public float gameSpeed;
-        public AssetReference splashScreen;
-        [TextArea()]
-        public string objectiveQuote;
-        [TextArea()]
-        public string crashQuote;
-        [TextArea(5, 8)]
-        public string attributions;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:316504846c6329c600281b8755fdcc8c8139792b4c079f9e965a5f636e43e45e
+size 668
