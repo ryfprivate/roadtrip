@@ -448,6 +448,7 @@
 "Assets/com.dotdothorse.roadtrip/SOs/SceneData/_Scripts/GameSceneSO.cs"
 "Assets/com.dotdothorse.roadtrip/SOs/SceneData/_Scripts/LocationSceneSO.cs"
 "Assets/com.dotdothorse.roadtrip/SOs/UpgradePaths/BaseUpgradePathSO.cs"
+"Assets/com.dotdothorse.roadtrip/SOs/UpgradePaths/Location/TestLocationUpgradePathSO.cs"
 "Assets/com.dotdothorse.roadtrip/SOs/UpgradePaths/Mod/RushUpgradePathSO.cs"
 "Assets/com.dotdothorse.roadtrip/SOs/UpgradePaths/Player/DefaultPlayerUpgradePathSO.cs"
 "Assets/URP/Scripts/SimpleCameraController.cs"

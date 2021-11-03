@@ -1,25 +1,3 @@
-using UnityEngine;
-using UnityEngine.Events;
-
-namespace com.dotdothorse.roadtrip
-{
-    public class InnerGate : MonoBehaviour
-    {
-        public UnityAction OnEnterSegment;
-        private BoxCollider _boxCollider;
-
-        private void Awake()
-        {
-            _boxCollider = GetComponent<BoxCollider>();
-            _boxCollider.isTrigger = true;
-        }
-
-        private void OnTriggerExit(Collider other)
-        {
-            if (other.tag == "Player")
-            {
-                if (OnEnterSegment != null) OnEnterSegment.Invoke();
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a171b25aa1a85694c96bbcf77b481401b55d22f03bdf7242cb1ef41b900483a7
+size 605

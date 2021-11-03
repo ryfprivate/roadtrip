@@ -1,36 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
- 
-namespace com.dotdothorse.roadtrip
-{
-    public class RepelZone : MonoBehaviour
-    {
-        private MeshRenderer _meshRenderer;
-        private BoxCollider _boxCollider;
-        private void Awake()
-        {
-            _meshRenderer = GetComponent<MeshRenderer>();
-            _boxCollider = GetComponent<BoxCollider>();
-            _meshRenderer.enabled = false;
-            _boxCollider.isTrigger = true;
-        }
-
-        private void OnTriggerStay(Collider other)
-        {
-            if (other.tag == "Player")
-            {
-                _meshRenderer.enabled = true;
-                other.attachedRigidbody.velocity += transform.forward;
-            }
-        }
-
-        private void OnTriggerExit(Collider other)
-        {
-            if (other.tag == "Player")
-            {
-                _meshRenderer.enabled = false;
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:35788abdd29b5d32629e6a70916fad853ddc617af40cd4325265083269e73f57
+size 597
