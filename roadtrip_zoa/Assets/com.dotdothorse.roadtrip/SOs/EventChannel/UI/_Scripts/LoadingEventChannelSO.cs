@@ -1,19 +1,3 @@
-using UnityEngine;
-using UnityEngine.AddressableAssets;
-using UnityEngine.Events;
- 
-namespace com.dotdothorse.roadtrip
-{
-    [CreateAssetMenu(menuName = "SOs/Event Channel/UI/Loading")]
-    public class LoadingEventChannelSO : BaseDescriptionSO
-    {
-        public UnityAction<AssetReference> OnRequested;
-        public UnityAction<UnityAction> OnClose;
-        public UnityAction<float> OnOpenFade;
-        public UnityAction<float> OnCloseFade;
-        public void Request(AssetReference loadingSprite = null) => OnRequested?.Invoke(loadingSprite);
-        public void Close(UnityAction callback) => OnClose?.Invoke(callback);
-        public void OpenFade(float duration) => OnOpenFade?.Invoke(duration);
-        public void CloseFade(float duration) => OnCloseFade?.Invoke(duration);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c0fef027db92d9f98a7f8199bf79d54b3350a1fd0160f879ea14340a8f2196c
+size 899

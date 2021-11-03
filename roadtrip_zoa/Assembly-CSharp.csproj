@@ -149,6 +149,8 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\GameplayManager.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Location\LevelGenerator.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\UpgradePaths\Location\TestLocationUpgradePathSO.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Transition\TunnelTransition.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\Transition\_Scripts\TransitionEventChannelSO.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
