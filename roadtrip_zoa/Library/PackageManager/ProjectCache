@@ -13,10 +13,34 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637708418531968744
-    m_Hash: 3831255378
+      ticks: 637716200255002886
+    m_Hash: 2157727975
 m_EmbeddedPackageManifests:
-  m_ManifestsStatus: {}
+  m_ManifestsStatus:
+    C:/Users/Ray Feng/OneDrive/Documents/_game_dev/_projects/roadtrip_zoa/code/roadtrip_zoa/Packages/com.jbooth.microsplat.urp2019/package.json:
+      m_FilePath: C:/Users/Ray Feng/OneDrive/Documents/_game_dev/_projects/roadtrip_zoa/code/roadtrip_zoa/Packages/com.jbooth.microsplat.urp2019/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637702717440000000
+      m_Hash: 3419587306
+    C:/Users/Ray Feng/OneDrive/Documents/_game_dev/_projects/roadtrip_zoa/code/roadtrip_zoa/Packages/com.jbooth.microsplat.anti-tile/package.json:
+      m_FilePath: C:/Users/Ray Feng/OneDrive/Documents/_game_dev/_projects/roadtrip_zoa/code/roadtrip_zoa/Packages/com.jbooth.microsplat.anti-tile/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637702661020000000
+      m_Hash: 95864851
+    C:/Users/Ray Feng/OneDrive/Documents/_game_dev/_projects/roadtrip_zoa/code/roadtrip_zoa/Packages/com.jbooth.microsplat.core/package.json:
+      m_FilePath: C:/Users/Ray Feng/OneDrive/Documents/_game_dev/_projects/roadtrip_zoa/code/roadtrip_zoa/Packages/com.jbooth.microsplat.core/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637709453960000000
+      m_Hash: 1999738280
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/Ray Feng/OneDrive/Documents/_game_dev/_projects/roadtrip_zoa/code/roadtrip_zoa/Packages
@@ -194,6 +218,7 @@ m_ResolvedPackages:
     - 1.19.4
     - 1.19.6
     - 1.19.9
+    - 1.19.11
     compatible:
     - 1.16.19
     - 1.17.0-preview
@@ -215,6 +240,7 @@ m_ResolvedPackages:
     - 1.19.4
     - 1.19.6
     - 1.19.9
+    - 1.19.11
     verified: 1.16.19
   dependencies:
   - name: com.unity.scriptablebuildpipeline
@@ -324,6 +350,7 @@ m_ResolvedPackages:
     - 2.6.5
     - 2.6.9
     - 2.6.10
+    - 2.6.11
     - 2.7.1
     - 2.7.2
     - 2.7.3
@@ -337,6 +364,7 @@ m_ResolvedPackages:
     - 2.8.0
     - 2.8.1
     - 2.8.2
+    - 2.9.0-pre.1
     compatible:
     - 2.7.3
     - 2.7.4
@@ -349,6 +377,7 @@ m_ResolvedPackages:
     - 2.8.0
     - 2.8.1
     - 2.8.2
+    - 2.9.0-pre.1
     verified: 2.7.9
   dependencies: []
   resolvedDependencies: []
@@ -795,6 +824,7 @@ m_ResolvedPackages:
     - 1.1.0-preview.2
     - 1.1.0-preview.3
     - 1.1.1
+    - 1.2.0
     compatible:
     - 1.0.2
     - 1.1.0-pre.5
@@ -803,6 +833,7 @@ m_ResolvedPackages:
     - 1.1.0-preview.2
     - 1.1.0-preview.3
     - 1.1.1
+    - 1.2.0
     verified: 1.0.2
   dependencies: []
   resolvedDependencies: []
@@ -1176,11 +1207,14 @@ m_ResolvedPackages:
     - 3.0.5
     - 3.0.6
     - 3.2.0-pre.1
+    - 3.2.0-pre.2
+    - 4.0.0-pre.1
     compatible:
     - 3.0.4
     - 3.0.5
     - 3.0.6
     - 3.2.0-pre.1
+    - 3.2.0-pre.2
     verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
@@ -3259,6 +3293,170 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
+    nextVersion: 
+- packageId: com.jbooth.microsplat.anti-tile@file:C:\Users\Ray Feng\OneDrive\Documents\_game_dev\_projects\roadtrip_zoa\code\roadtrip_zoa\Packages\com.jbooth.microsplat.anti-tile
+  testable: 1
+  isDirectDependency: 1
+  version: 3.9.0
+  source: 3
+  resolvedPath: C:\Users\Ray Feng\OneDrive\Documents\_game_dev\_projects\roadtrip_zoa\code\roadtrip_zoa\Packages\com.jbooth.microsplat.anti-tile
+  assetPath: Packages/com.jbooth.microsplat.anti-tile
+  name: com.jbooth.microsplat.anti-tile
+  displayName: MicroSplat-AntiTile
+  author:
+    name: Jason Booth
+    email: slipster216@gmail.com
+    url: http://jdbtechservices.com/
+  category: 
+  type: tool
+  description: The Anit-Tile module for MicroSplat adds a number of techniques to
+    hide tiling patterns in large surfaces.
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.jbooth.microsplat.core
+    version: 3.9.0
+  resolvedDependencies:
+  - name: com.jbooth.microsplat.core
+    version: 3.9.0
+  keywords:
+  - MicroSplat
+  - Terrain
+  - Shader
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://docs.google.com/document/d/1tG8uJ14RYiP940IKnWxvAePZHHUnwn9UBb-6O_vAQNw/edit?usp=sharing
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.jbooth.microsplat.core@file:C:\Users\Ray Feng\OneDrive\Documents\_game_dev\_projects\roadtrip_zoa\code\roadtrip_zoa\Packages\com.jbooth.microsplat.core
+  testable: 1
+  isDirectDependency: 1
+  version: 3.9.0
+  source: 3
+  resolvedPath: C:\Users\Ray Feng\OneDrive\Documents\_game_dev\_projects\roadtrip_zoa\code\roadtrip_zoa\Packages\com.jbooth.microsplat.core
+  assetPath: Packages/com.jbooth.microsplat.core
+  name: com.jbooth.microsplat.core
+  displayName: MicroSplat-Core
+  author:
+    name: Jason Booth
+    email: slipster216@gmail.com
+    url: http://jdbtechservices.com/
+  category: 
+  type: tool
+  description: The Core module for the MicroSplat Shading system. This is required
+    by all MicroSplat modules.
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - MicroSplat
+  - Terrain
+  - Shader
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://docs.google.com/document/d/1t_ZEKW8bHJqVWulH9Tcu-V5PIMr-sBOV_Ob7k2y1XY8/edit?usp=sharing
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.jbooth.microsplat.urp2019@file:C:\Users\Ray Feng\OneDrive\Documents\_game_dev\_projects\roadtrip_zoa\code\roadtrip_zoa\Packages\com.jbooth.microsplat.urp2019
+  testable: 1
+  isDirectDependency: 1
+  version: 3.9.0
+  source: 3
+  resolvedPath: C:\Users\Ray Feng\OneDrive\Documents\_game_dev\_projects\roadtrip_zoa\code\roadtrip_zoa\Packages\com.jbooth.microsplat.urp2019
+  assetPath: Packages/com.jbooth.microsplat.urp2019
+  name: com.jbooth.microsplat.urp2019
+  displayName: MicroSplat-CoreURP2019
+  author:
+    name: Jason Booth
+    email: slipster216@gmail.com
+    url: http://jdbtechservices.com/
+  category: 
+  type: tool
+  description: The URP2019 module for MicroSplat allows MicroSplat to compile it's
+    shaders for URP 7.x in Unity 2019LTS
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.jbooth.microsplat.core
+    version: 3.9.0
+  resolvedDependencies:
+  - name: com.jbooth.microsplat.core
+    version: 3.9.0
+  keywords:
+  - MicroSplat
+  - Terrain
+  - Shader
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://docs.google.com/document/d/1i29Tp5WcsFcIHCVgWV4rSnjgpw1kyENaVSSkHhgu0ro/edit?usp=sharing
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0

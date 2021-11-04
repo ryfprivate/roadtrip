@@ -453,6 +453,11 @@
 "Assets/com.dotdothorse.roadtrip/SOs/UpgradePaths/Location/TestLocationUpgradePathSO.cs"
 "Assets/com.dotdothorse.roadtrip/SOs/UpgradePaths/Mod/RushUpgradePathSO.cs"
 "Assets/com.dotdothorse.roadtrip/SOs/UpgradePaths/Player/DefaultPlayerUpgradePathSO.cs"
+"Assets/MobilePostProcess/Example/Movement.cs"
+"Assets/MobilePostProcess/MobilePostProcessing.cs"
+"Assets/MobilePostProcess/URP_PPS/EditValues.cs"
+"Assets/MobilePostProcess/URP_PPS/PostProcessUrp.cs"
+"Assets/MobilePostProcess/URP_PPS/PostProcessUrpPass.cs"
 "Assets/URP/Scripts/SimpleCameraController.cs"
 "Assets/URP/TutorialInfo/Scripts/Readme.cs"
 -langversion:8.0
