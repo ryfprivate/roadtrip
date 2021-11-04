@@ -56,14 +56,9 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\LitShader.cs" />
-    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\SavedParameter.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Editor\Editor Windows\CurvedWorldMaterialDuplicateEditorWindow.cs" />
-    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\SimpleLitShader.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Editor\Base\EditorUtilities.cs" />
-    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Editor Windows\CurvedWorldEditorWindow.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Editor\CreateNewScriptClassFromCustomTemplate.cs" />
-    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\LitDetailGUI.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\ParticlesLitShader.cs" />
     <Compile Include="Assets\URP\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\MaterialProperties.cs" />
@@ -73,19 +68,24 @@
     <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\BakedLitShader.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Editor\Editor Windows\CurvedWorldBendSettingsEditorWindow.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Property Drawers\CurvedWorldToggleFloatDrawer.cs" />
-    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\ParticlesSimpleLitShader.cs" />
-    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Script Editors\CurvedWorldBoundingBoxEditor.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Editor\Script Editors\CurvedWorldCameraEditor.cs" />
-    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Script Editors\CurvedWorldControllerEditor.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\SpritesShaderGUI.cs" />
-    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Property Drawers\CurvedWorldSeparatorDrawer.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\DefaultShaderGUI.cs" />
-    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Base\ShaderSelectionDropdown.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\ParticlesUnlitShader.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\UnlitShader.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Property Drawers\CurvedWorldBendSettingsDrawer.cs" />
-    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Base\AssetInfo.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Property Drawers\CurvedWorldUVScrollDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\LitShader.cs" />
+    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\SavedParameter.cs" />
+    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\SimpleLitShader.cs" />
+    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Editor Windows\CurvedWorldEditorWindow.cs" />
+    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\LitDetailGUI.cs" />
+    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Editors\Builtin\ParticlesSimpleLitShader.cs" />
+    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Script Editors\CurvedWorldBoundingBoxEditor.cs" />
+    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Script Editors\CurvedWorldControllerEditor.cs" />
+    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Material Property Drawers\CurvedWorldSeparatorDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Base\ShaderSelectionDropdown.cs" />
+    <Compile Include="Assets\Amazing Assets\Curved World\Editor\Base\AssetInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -867,6 +867,10 @@
       <Project>{2544B3FC-70B3-9530-51F6-2D272EC5A3F9}</Project>
       <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
+    <ProjectReference Include="AmplifyShaderEditor.csproj">
+      <Project>{6D8E7C74-91AE-340F-101F-ECF47408BE45}</Project>
+      <Name>AmplifyShaderEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
       <Project>{7342F4AA-7F76-D3A2-B053-B505D1BADB8B}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
@@ -886,10 +890,6 @@
     <ProjectReference Include="JBooth.MicroSplat.Core.csproj">
       <Project>{455B07F3-DEE8-CCD9-4093-D39F94D83317}</Project>
       <Name>JBooth.MicroSplat.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="AmplifyShaderEditor.csproj">
-      <Project>{6D8E7C74-91AE-340F-101F-ECF47408BE45}</Project>
-      <Name>AmplifyShaderEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
