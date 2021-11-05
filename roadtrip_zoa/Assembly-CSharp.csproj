@@ -517,6 +517,7 @@
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Little Planet\CurvedWorld_LittlePlanet_Y_ID32.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Twisted Spiral\CurvedWorld_TwistedSpiral_Z_Negative_ID4.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Vertical\CurvedWorld_SpiralVertical_Z_Negative_ID3.cginc" />
+     <None Include="Assets\com.dotdothorse.roadtrip\Terrain\Grassy\MicroSplatData\MicroSplat_Base.shader" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Vertical Double\CurvedWorld_SpiralVerticalDouble_Z_ID27.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Horizontal\CurvedWorld_SpiralHorizontal_Z_Positive_ID13.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Horizontal\CurvedWorld_SpiralHorizontal_X_Negative_ID6.cginc" />
@@ -583,6 +584,7 @@
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Vertical Rolloff\CurvedWorld_SpiralVerticalRolloff_X_ID22.cginc" />
      <None Include="Assets\com.dotdothorse.roadtrip\Shaders\CFXR Particle Ubershader.shader" />
      <None Include="Assets\com.dotdothorse.roadtrip\Shaders\Lighting.hlsl" />
+     <None Include="Assets\com.dotdothorse.roadtrip\Terrain\Grassy\MicroSplatData\MicroSplat.shader" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Horizontal\CurvedWorld_SpiralHorizontal_X_Negative_ID27.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Cylindrical Rolloff\CurvedWorld_CylindricalRolloff_Z_ID30.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Little Planet\CurvedWorld_LittlePlanet_X_ID6.cginc" />
@@ -916,7 +918,6 @@
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Cylindrical Rolloff\CurvedWorld_CylindricalRolloff_X_ID8.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Vertical Double\CurvedWorld_SpiralVerticalDouble_X_ID24.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Cylindrical Tower\CurvedWorld_CylindricalTower_X_ID2.cginc" />
-     <None Include="Assets\com.dotdothorse.roadtrip\Terrain\Plains\MicroSplatData\MicroSplat_Base.shader" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Vertical\CurvedWorld_SpiralVertical_Z_Positive_ID2.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Vertical Double\CurvedWorld_SpiralVerticalDouble_Z_ID32.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Classic Runner\CurvedWorld_ClassicRunner_X_Negative_ID9.cginc" />
@@ -1094,7 +1095,6 @@
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Vertical Rolloff\CurvedWorld_SpiralVerticalRolloff_Z_ID14.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Horizontal\CurvedWorld_SpiralHorizontal_Z_Negative_ID30.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Little Planet\CurvedWorld_LittlePlanet_Z_ID22.cginc" />
-     <None Include="Assets\com.dotdothorse.roadtrip\Terrain\Plains\MicroSplatData\MicroSplat.shader" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Classic Runner\CurvedWorld_ClassicRunner_X_Negative_ID31.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Cylindrical Rolloff\CurvedWorld_CylindricalRolloff_Z_ID27.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Vertical Rolloff\CurvedWorld_SpiralVerticalRolloff_Z_ID13.cginc" />
