@@ -1,25 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
- 
-namespace com.dotdothorse.roadtrip
-{
-    public class OuterGate : MonoBehaviour
-    {
-        private BoxCollider _boxCollider;
-
-        private void Awake()
-        {
-            _boxCollider = GetComponent<BoxCollider>();
-        }
-
-        public void Close()
-        {
-            _boxCollider.isTrigger = false;
-        }
-        public void Open()
-        {
-            _boxCollider.isTrigger = true;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6833bc0fbf61bcc14275370c01db8fcf495d6e49697b9ae77c1bbe518589ed8
+size 866

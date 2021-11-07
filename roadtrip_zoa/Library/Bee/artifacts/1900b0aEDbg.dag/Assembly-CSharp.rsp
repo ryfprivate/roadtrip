@@ -399,6 +399,7 @@
 "Assets/com.dotdothorse.roadtrip/Scripts/C#/SaveData.cs"
 "Assets/com.dotdothorse.roadtrip/Scripts/C#/Util.cs"
 "Assets/com.dotdothorse.roadtrip/Scripts/C#/Wiggle.cs"
+"Assets/com.dotdothorse.roadtrip/Scripts/Monos/Boundary/BorderBoundary.cs"
 "Assets/com.dotdothorse.roadtrip/Scripts/Monos/Boundary/Boundary.cs"
 "Assets/com.dotdothorse.roadtrip/Scripts/Monos/Boundary/InnerGate.cs"
 "Assets/com.dotdothorse.roadtrip/Scripts/Monos/Boundary/OuterGate.cs"
