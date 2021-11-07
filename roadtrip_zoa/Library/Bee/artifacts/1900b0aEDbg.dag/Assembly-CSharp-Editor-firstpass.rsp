@@ -112,6 +112,11 @@
 -define:ADDRESSABLES_ENABLED
 -define:DISABLE_3D_SOUND
 -define:PHY3D_ENABLED
+-define:__MICROSPLAT__
+-define:__MICROSPLAT_DETAILRESAMPLE__
+-define:AMPLIFY_SHADER_EDITOR
+-define:USING_URP
+-define:JUPITER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll"
@@ -328,9 +333,12 @@
 -r:"C:/Users/Ray Feng/OneDrive/Documents/_game_dev/_projects/roadtrip_zoa/code/roadtrip_zoa/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
 -r:"C:/Users/Ray Feng/OneDrive/Documents/_game_dev/_projects/roadtrip_zoa/code/roadtrip_zoa/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"C:/Users/Ray Feng/OneDrive/Documents/_game_dev/_projects/roadtrip_zoa/code/roadtrip_zoa/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/AmplifyShaderEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/com.unity.cinemachine.editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/JBooth.MicroSplat.Core.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/JBooth.MicroSplat.Core.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Sirenix.OdinInspector.CompatibilityLayer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Sirenix.OdinInspector.CompatibilityLayer.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Sirenix.OdinInspector.Modules.UnityMathematics.ref.dll"

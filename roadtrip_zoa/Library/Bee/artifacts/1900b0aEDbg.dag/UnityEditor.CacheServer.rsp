@@ -112,6 +112,11 @@
 -define:ADDRESSABLES_ENABLED
 -define:DISABLE_3D_SOUND
 -define:PHY3D_ENABLED
+-define:__MICROSPLAT__
+-define:__MICROSPLAT_DETAILRESAMPLE__
+-define:AMPLIFY_SHADER_EDITOR
+-define:USING_URP
+-define:JUPITER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll"
