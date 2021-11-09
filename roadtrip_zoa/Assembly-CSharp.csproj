@@ -141,6 +141,7 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Location\LevelGenerator.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Example Scenes\Files\Scripts\RunnerChunk.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Jupiter - Procedural Sky\Runtime\Scripts\DayNightCycle\JDayNightCycleProfile.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Boundary\BorderBoundary.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\Mod\_Scripts\ModDataSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Pool\PooledObject.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Jupiter - Procedural Sky\Runtime\Scripts\Core\JSky.cs" />
@@ -204,8 +205,9 @@
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Jupiter - Procedural Sky\Runtime\Scripts\DayNightCycle\JAnimatedProperty.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\UpgradePaths\Player\DefaultPlayerUpgradePathSO.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Example Scenes\Files\Unity Tanks\Scripts\Tank\TankMovement.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\UpgradePaths\Location\Origin\BalkanPlainsUpgradePathSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\GameplayManager.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Boundary\BorderBoundary.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Level\StartSegment.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Little Planet\CurvedWorld_LittlePlanet_X_ID16.cginc" />
