@@ -60,6 +60,7 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\Transition\_Scripts\TransitionEventChannelSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\UI\ButtonWrapper.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Jupiter - Procedural Sky\Runtime\Scripts\Utilities\JInternalShaderSettings.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Level\StartSegment.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Level\EndStartLevel.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\CameraManager.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\StatsInfo.cs" />
@@ -207,7 +208,25 @@
     <Compile Include="Assets\Amazing Assets\Curved World\Example Scenes\Files\Unity Tanks\Scripts\Tank\TankMovement.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\UpgradePaths\Location\Origin\BalkanPlainsUpgradePathSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\GameplayManager.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Level\StartSegment.cs" />
+    <Compile Include="Assets\Krearthur\Utils\Factory\RectFactory.cs" />
+    <Compile Include="Assets\Krearthur\GOPainter\Scripts\IGridTransform.cs" />
+    <Compile Include="Assets\Krearthur\GOPainter\Scripts\Brush.cs" />
+    <Compile Include="Assets\Krearthur\Utils\Factory\LineFactory.cs" />
+    <Compile Include="Assets\Krearthur\GOPainter\Scripts\Marker.cs" />
+    <Compile Include="Assets\Krearthur\GOPainter\Scripts\Pop.cs" />
+    <Compile Include="Assets\Krearthur\Utils\Factory\ObjectFactory.cs" />
+    <Compile Include="Assets\Krearthur\GOPainter\Scripts\GOSurfaceSnapper.cs" />
+    <Compile Include="Assets\Krearthur\GOPainter\Scripts\GridTransform.cs" />
+    <Compile Include="Assets\Krearthur\GOPainter\Scripts\PaintAction.cs" />
+    <Compile Include="Assets\Krearthur\Utils\Factory\CircleFactory.cs" />
+    <Compile Include="Assets\Krearthur\GOPainter\Scripts\PaintCanvas.cs" />
+    <Compile Include="Assets\Krearthur\GOPainter\Scripts\ObjectPaintAnimation.cs" />
+    <Compile Include="Assets\Krearthur\Utils\PhysicsSimulation.cs" />
+    <Compile Include="Assets\Krearthur\GOPainter\Scripts\GORandomizer.cs" />
+    <Compile Include="Assets\Krearthur\Utils\Extensions.cs" />
+    <Compile Include="Assets\Krearthur\GOPainter\Scripts\GOPainter.cs" />
+    <Compile Include="Assets\Krearthur\GOPainter\Scripts\GOSwitcher.cs" />
+    <Compile Include="Assets\Krearthur\GOPainter\Scripts\GOPainterMenu.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Little Planet\CurvedWorld_LittlePlanet_X_ID16.cginc" />
@@ -302,6 +321,7 @@
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Horizontal Double\CurvedWorld_SpiralHorizontalDouble_Z_ID19.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Vertical Double\CurvedWorld_SpiralVerticalDouble_Z_ID19.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Vertical Rolloff\CurvedWorld_SpiralVerticalRolloff_X_ID4.cginc" />
+     <None Include="Assets\Krearthur\GOPainter\Resources\SimpleDiffuse.shader" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Twisted Spiral\CurvedWorld_TwistedSpiral_X_Negative_ID28.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Twisted Spiral\CurvedWorld_TwistedSpiral_Z_Positive_ID10.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Little Planet\CurvedWorld_LittlePlanet_Z_ID17.cginc" />
@@ -764,6 +784,7 @@
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Vertical Double\CurvedWorld_SpiralVerticalDouble_Z_ID30.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Classic Runner\CurvedWorld_ClassicRunner_Z_Positive_ID17.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Classic Runner\CurvedWorld_ClassicRunner_X_Negative_ID15.cginc" />
+     <None Include="Assets\Krearthur\GOPainter\Resources\Xray.shader" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\Custom\Particles\ParticlesUnlit.shader" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Twisted Spiral\CurvedWorld_TwistedSpiral_Z_Negative_ID19.cginc" />
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Spiral Vertical Double\CurvedWorld_SpiralVerticalDouble_X_ID10.cginc" />

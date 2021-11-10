@@ -1,34 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Events;
-using DG.Tweening;
- 
-namespace com.dotdothorse.roadtrip
-{
-    public class ObstacleTrigger : CoinTrigger
-    {
-        [SerializeField] private int damage;
-        private bool inCooldown = false;
-        public int Damage
-        {
-            get { return damage; }
-            set { damage = value; }
-        }
-        public void Impact(UnityAction callback)
-        {
-            if (!inCooldown)
-            {
-                callback();
-                StartCoroutine(Cooldown());
-            }
-        }
-        private IEnumerator Cooldown()
-        {
-            float duration = 1;
-            inCooldown = true;
-            yield return new WaitForSeconds(duration);
-            inCooldown = false;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:69f0a56a28626053e0e2ad5bf3b18d212703015e1717ca0ce34baa29ed747944
+size 884
