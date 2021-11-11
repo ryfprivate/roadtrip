@@ -110,10 +110,12 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Menu\MenuCars.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\UpgradePaths\BaseUpgradePathSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\Gameplay\_Scripts\GameplayEventChannelSO.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Objects\Physics\DestroyableTrigger.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Location\PlayerSpawner.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Jupiter - Procedural Sky\Runtime\Scripts\Core\JDetailOverlayLayer.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Scripts\CurvedWorldController.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Player\Mods\CarMod.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Player\TriggerZone.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Jupiter - Procedural Sky\Runtime\Scripts\Utilities\JProgressCancelledException.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\C#\Util.cs" />
     <Compile Include="Assets\Krearthur\Utils\PhysicsSimulation.cs" />
@@ -227,8 +229,9 @@
     <Compile Include="Assets\Krearthur\GOPainter\Scripts\PaintCanvas.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\UpgradePaths\Location\Origin\BalkanPlainsUpgradePathSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\GameplayManager.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Player\TriggerZone.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Objects\Physics\DestroyableTrigger.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Enemy\EnemyDriver.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\C#\Interfaces\Impactable.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Level\Actions\LevelAction.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Little Planet\CurvedWorld_LittlePlanet_X_ID16.cginc" />
