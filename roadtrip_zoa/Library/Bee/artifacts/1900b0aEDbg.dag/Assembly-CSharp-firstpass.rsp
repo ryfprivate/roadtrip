@@ -117,6 +117,7 @@
 -define:AMPLIFY_SHADER_EDITOR
 -define:USING_URP
 -define:JUPITER
+-define:ADDRESSABLES_ENABLED
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll"
