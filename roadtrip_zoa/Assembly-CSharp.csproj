@@ -232,6 +232,7 @@
     <Compile Include="Assets\Krearthur\GOPainter\Scripts\PaintCanvas.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\UpgradePaths\Location\Origin\BalkanPlainsUpgradePathSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\GameplayManager.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Level\Actions\ChargeSequenceAction.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Little Planet\CurvedWorld_LittlePlanet_X_ID16.cginc" />
