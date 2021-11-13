@@ -110,7 +110,6 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Menu\MenuCars.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\UpgradePaths\BaseUpgradePathSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\Gameplay\_Scripts\GameplayEventChannelSO.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Objects\Physics\DestroyableTrigger.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Location\PlayerSpawner.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Jupiter - Procedural Sky\Runtime\Scripts\Core\JDetailOverlayLayer.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Scripts\CurvedWorldController.cs" />
@@ -146,7 +145,7 @@
     <Compile Include="Assets\Amazing Assets\Curved World\Example Scenes\Files\Scripts\SwitchInput.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\UI\UIStateInfo.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Example Scenes\Files\2D\Scripts\Perspective2D_Restarter.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Objects\Physics\CoinTrigger.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Triggers\CoinTrigger.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\MainMenu\UI\UIMainMenuInfoBar.cs" />
     <Compile Include="Assets\MobilePostProcess\URP_PPS\EditValues.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Location\LocationEffects.cs" />
@@ -171,7 +170,7 @@
     <Compile Include="Assets\Amazing Assets\Curved World\Example Scenes\Files\Scripts\AngleHeightBlend.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\PersistentManagers\SceneLoader.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Jupiter - Procedural Sky\Runtime\Scripts\Utilities\JCubemapRenderer.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Objects\Physics\ObstacleTrigger.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Triggers\ObstacleTrigger.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Example Scenes\Files\Unity Tanks\Scripts\UI\UIDirectionControl.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Transition\TunnelTransition.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\UpgradePaths\Mod\RushUpgradePathSO.cs" />
@@ -194,7 +193,7 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\Camera\_Scripts\CameraEventChannelSO.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Jupiter - Procedural Sky\Runtime\Scripts\Utilities\JRenderPipelineType.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\MainMenu\MainMenuManager.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Objects\Physics\BaseTrigger.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Triggers\BaseTrigger.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\InitializationLoader.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Utils\FPSDisplay.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Menu\MenuStart.cs" />
@@ -221,6 +220,7 @@
     <Compile Include="Assets\Krearthur\Utils\Factory\RectFactory.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Menu\UI\Cars\UICarDetails.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Example Scenes\Files\Scripts\TeamCollision.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Level\Actions\ChargeSequenceAction.cs" />
     <Compile Include="Assets\Amazing Assets\Curved World\Example Scenes\Files\Scripts\ManualControllerUpdate.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Jupiter - Procedural Sky\Runtime\Scripts\Core\JFogSyncOption.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\Level\_Scripts\LevelSO.cs" />
@@ -232,7 +232,9 @@
     <Compile Include="Assets\Krearthur\GOPainter\Scripts\PaintCanvas.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\UpgradePaths\Location\Origin\BalkanPlainsUpgradePathSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\GameplayManager.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Level\Actions\ChargeSequenceAction.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\C#\Interfaces\Destroyable.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Triggers\Destroyable\DestroyableObstacle.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Triggers\Destroyable\DestroyableTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Little Planet\CurvedWorld_LittlePlanet_X_ID16.cginc" />
