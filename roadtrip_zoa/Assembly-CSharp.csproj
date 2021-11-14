@@ -83,6 +83,7 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Location\UI\UISplashScreen.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Player\PlayerEffects.cs" />
     <Compile Include="Assets\Krearthur\Utils\Factory\CircleFactory.cs" />
+    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Transition\FlagTransition.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\C#\Wiggle.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\Menu\_Scripts\MenuEventChannelSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\EventChannel\VFX\_Scripts\VFXEventsChannelSO.cs" />
@@ -235,7 +236,6 @@
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\C#\Interfaces\Destroyable.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\SOs\UpgradePaths\Location\Origin\BalkanPlainsUpgradePathSO.cs" />
     <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Gameplay\GameplayManager.cs" />
-    <Compile Include="Assets\com.dotdothorse.roadtrip\Scripts\Monos\Scene\Transition\FlagTransition.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Amazing Assets\Curved World\Shaders\CGINC\Little Planet\CurvedWorld_LittlePlanet_X_ID16.cginc" />
