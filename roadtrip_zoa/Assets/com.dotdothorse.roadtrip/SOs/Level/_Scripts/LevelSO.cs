@@ -1,30 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.AddressableAssets;
- 
-namespace com.dotdothorse.roadtrip
-{
-    [Serializable]
-    public class SegmentData
-    {
-        public AssetReference segment;
-        public int numInstances;
-    }
-    [Serializable]
-    public class MusicData
-    {
-        public AssetReference clip;
-        public string clipName;
-    }
-    [CreateAssetMenu(menuName = "SOs/LevelData")]
-    public class LevelSO : ScriptableObject
-    {
-        public string levelName;
-        public string musicName;
-        public int numSegmentsInLevel;
-        public bool randomize;
-        public List<SegmentData> segments;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0883d06638a9674d4b221cdc858c02b6640299bfd6fb5cc1444c9761de7185f
+size 725
